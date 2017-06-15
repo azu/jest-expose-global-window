@@ -1,0 +1,31 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "jest-expose-global-window",
+  "version": "1.0.0",
+  "main": "lib/jest-expose-global-window.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/jest-expose-global-window.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/jest-expose-global-window/issues"
+  },
+  "homepage": "https://github.com/azu/jest-expose-global-window",
+  "dependencies": {
+    "jest": "^20.0.4"
+  }
+}
