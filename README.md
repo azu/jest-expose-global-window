@@ -1,26 +1,22 @@
 # jest-expose-global-window
 
-
-
-## Install
-
-Install with [npm](https://www.npmjs.com/):
-
-    npm install jest-expose-global-window
-
 ## Usage
 
-- [ ] Write usage instructions
+```shell-session
+$ yarn test
 
-## Changelog
+yarn test
+yarn test v0.24.6
+$ jest
+ FAIL  __tests__/jest-test.js
+  ● should not defined global.window
 
-See [Releases page](https://github.com/azu/jest-expose-global-window/releases).
+    expect(received).toBeUndefined()
 
-## Running tests
+    Expected value to be undefined, instead received
+```
 
-Install devDependencies and Run `npm test`:
-
-    npm i -d && npm test
+- [I found `window` is `global` in jest from StackOverflow, but not mention in docs? · Issue #3692 · facebook/jest](https://github.com/facebook/jest/issues/3692 "I found `window` is `global` in jest from StackOverflow, but not mention in docs? · Issue #3692 · facebook/jest")
 
 ## Contributing
 
